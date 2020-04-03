@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Block</title>
+	<link rel="stylesheet" type="text/css" href="blog.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script type="text/javascript">
+		let news =
+[
+      {
+            content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            author:"Julius Caeser"
+      },
+      {
+            content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            author:"Julius Caeser"
+      },
+      {
+            content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            author:"Julius Caeser"
+      },
+      {
+            content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            author:"Julius Caeser"
+      },
+      {
+            content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            author:"Julius Caeser"
+      },
+      {
+            content:"Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            author:"Julius Caeser"
+      },
+];
+
+      function updateNews(){
+            if(tab<=6){
+                  html = "";
+                  for(i=0; i<tab*6; i++){
+                        html+='<hp>'+news[i]['content']+"</p>"
+                        html+='<b>'+news[i]['author']+"</b><br>"
+                  }
+                  document.getElementById("div").innerHTML = html;
+                  tab++;
+            }
+      }
+	</script>
+</head>
+<body>
+	<div>
+	<ul>
+		<li><a href="mainpage.html">About</a></li>
+		<li><a href="products.html">Products</a></li>
+		<li><a href="#">Contact</a></li>
+		<li><a href="#">Quiz</a></li>
+		<li><a href="blog.html">Blog</a></li>
+		<li><a href="#">Other</a></li>
+	</ul>
+	</div>
+	<div>
+		<h1 class="h2">This is my Blog</h1>
+	</div><br>
+	<div id="conteiner">
+	<div class="div-pad">
+	<div class="card">
+  <div id="div" class="card-body">
+    <h2 class="card-title">Post#1</h2>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
+    <button class="btn btn-primary" onclick="updateNews()">Read More</button>
+  </div>
+  <div class="card-header">
+    Posted on Bitlab
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h2 class="card-title">Post#2</h2>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
+    <a href="#" class="btn btn-primary">Read More</a>
+  </div>
+  <div class="card-header">
+    Posted on Bitlab
+  </div>
+</div>
+<!-- side bar -->
+<div class="div-right">
+	<div class="card">
+		<div class="card-header">
+   			 <b>Add New Block</b>
+  		</div>
+  <div class="card-body">
+    <p>Title:</p>
+    <input type="text">
+    <p>content:</p>
+ 	<textarea></textarea>
+	<p>author:</p>
+	<input type="text">
+	<p></p>
+	<button type="button" class="btn btn-primary">Read More</button>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+.facebook{font-family: Arial;
+	font-size: bold;
+	display: flex;
+	height: 40px;
+	padding-top: 15px;
+	padding-left: 10px;}
+
+
+.flex {display: flex;
+		width: 100%;	
+		background-color: darkblue;}
+
+.flex1{display: flex;}
+
+
+.facebook2	{color: white;
+			font-weight: bold;
+			text-decoration: none;
+			font-size: 25px;
+			padding-bottom: 12px;}
+
+.beis   {width: 50%; 
+	 	padding-top: 20px;
+	 	padding-left: 500px;}
+
+.beis2	{float: right;
+ 	  	 margin-right: 10px}
+
+.beis3	{color: white; 
+		text-decoration: none; 
+		margin-left: 40px;
+		font-family: Arial;}
+
+.beis4	{color: white; 
+		text-decoration: none;
+		 margin-left: 40px;
+	 	font-family: Arial;}
+
+
+
+.img{padding-left: 15px;
+	 padding-top: 15px;
+	 width: 300px;
+	 height: 250px;}
+
+
+.span{font-size: 20px; 
+	  font-family: Arial;
+	  margin-left: 10px;}
+	  
+.span2{font-size: 18px; 
+	  font-family: Arial;}
+
+.div2{height: 40px; 
+	border: 1px lightgrey solid;
+	 border-radius: 1px;}
+
+
+.div1{width: 95%;
+ 	min-height: 40px; 
+ 	padding-top: 0px; 
+	 padding-right: 20px;
+ 	 margin-left: 15px;}
+
+.p{margin-right: 40px;}

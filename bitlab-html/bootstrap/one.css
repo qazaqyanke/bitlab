@@ -1,0 +1,61 @@
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li{
+	float: right;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: Arial;
+	transition: 0.5s;
+	text-decoration: none;
+
+}
+
+li a:hover{
+	background-color: #111;
+	text-decoration: none;
+}
+
+.div{
+	margin-left: 150px;
+	margin-top: 50px;
+}
+.card{
+	margin-right: 30px;
+}
+.text{
+	text-align: center;
+	margin-top: 200px;
+	color: #008B8B;
+}
+
+.input{ 
+	width: 25%;
+	border-radius: 10px 10px 10px 10px;
+	background-color: #f6f6f6;
+	font-family: sans-serif;
+
+}
+
+.text-center{
+    margin-right: auto;
+    margin-left: auto;
+}
+.h1{
+	text-align: center;
+}
+
+.products{
+	text-align: center;
+}
